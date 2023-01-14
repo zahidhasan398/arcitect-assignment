@@ -1,0 +1,231 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: #424242;
+}
+.container-header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+/* style nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+.nav-menu{
+  display: flex;
+  gap: 15px;
+  font-weight: 500;
+ font-size: 18px;
+ line-height: 26px;
+}
+.nav-menu li{
+  list-style: none;
+}
+/* banner content style */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner >h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.banner >p{
+    text-align: center;
+    font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+text-align: center;
+color: #727272;
+}
+.banner >button{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+background: #FF900E;
+border: 0px;
+padding: 17px 17px;
+border-radius: 5px;
+}
+.banner-img{
+    margin: 10px 0px;
+}
+.banner-img > img{
+    width: 100%;
+}
+/* quick list of our feature container */
+.container-of-feature{
+    display: flex;
+    align-items: center;
+    padding: 70px 300px;
+    gap: 20px;
+}
+.container-of-feature div{
+    flex: 1;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-content > h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+.feature-content > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.feature-content > button{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border: 0px;
+    padding: 17px 17px;
+    border-radius: 5px;
+}
+/* start feature lover and enjoy container */
+.feature-lover-container{
+    display: flex;
+    padding: 5px 240px;
+    gap: 35px;
+}
+.feature-lover-container div{
+    flex: 1;
+}
+.f-l-img img{
+    width: 100%;
+    height: 100%;
+}
+.f-l-content h1{
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+
+}
+.f-l-content p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+.f-l-content h3{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #131313;
+}
+.f-l-img{
+    position: relative;
+}
+.experinence-btn{
+    position: absolute;
+    bottom: -38px;
+    left: -30px;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 42px 46px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* some facts */
+.fact-container{
+    padding: 130px 240px;
+}
+.fact-container h1{
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+.fact-container p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+/* start project-achivement-container */
+.project-achivement-container{
+    padding: 100px 290px;
+}
+.project-achive{
+    display: flex;
+    justify-content: space-between;
+}
+.project-achive li{
+    list-style: none;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.482);
+    border-radius: 10px;
+    padding: 5px 5px;
+    transition: background 1s ease .1s,color 1s ease .1s;
+}
+.project-achive li:hover {
+    background: gold;
+    color: white;
+
+}
+/* start sponsor container content */
+.sponsor-container{
+    text-align: center;
+}
+.sponsor-container h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.sponsor-container p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+footer{
+    margin: 100px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+    background: rgba(255, 0, 0, 0.24);
+    padding: 20px 15px;
+    margin: 240px;
+}
+
