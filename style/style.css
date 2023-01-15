@@ -228,6 +228,30 @@ footer{
     padding: 20px 15px;
     margin: 240px;
 }
+/* start custom container */
+.custom-container{
+    display: flex;
+    margin: 200px 200px;
+    gap: 10px;
+}
+.custom-content{
+    background: rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    flex: 1;
+    padding: 10px 10px;
+}
+.custom-content > div >i{
+    font-size: 50px;
+    color: #FF900E;
+}
+.custom-content  >h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+}
+.custom-content > p{
+   color:  #1313139e;
+}
 @media screen and (max-width:576px){
     .container-header{
         padding: 30px 5px;
@@ -268,6 +292,10 @@ footer{
     }
     footer{
         margin: 0px;
+    }
+    .custom-container{
+        flex-direction: column;
+        margin: 20px 0;
     }
 }
 
