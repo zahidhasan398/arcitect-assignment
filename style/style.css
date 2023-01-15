@@ -228,4 +228,46 @@ footer{
     padding: 20px 15px;
     margin: 240px;
 }
+@media screen and (max-width:576px){
+    .container-header{
+        padding: 30px 5px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .container-of-feature{
+        padding: 10px 5px;
+        flex-direction: column;
+    }
+    .feature-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-content {
+        text-align: center;
+    }
+    .feature-lover-container{
+        padding: 10px 0px;
+        flex-direction: column;
+    }
+    .fact-container{
+        padding: 10px 5px;
+    }
+    .project-achivement-container{
+        padding: 10px 100px;
+    }
+    .project-achive{
+        flex-direction: column;
+    }
+    .project-achive li{
+        margin-bottom: 25px;
+    }
+    .icon-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 60px;
+    }
+    footer{
+        margin: 0px;
+    }
+}
 
